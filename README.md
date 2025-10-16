@@ -3,11 +3,9 @@
   1. Importiert das Netz aus [NeuralNetwork](): `from NeuralNetwork import FFN, validation_classification`
   
   3. **Funktion:** `FFN()`
-     **Argumente:** -	ordner = <Name des Ordners in dem die Daten liegen (falls sich Ordner und Skript sich am selben Speicherort befinden), sonst Pfad zum Ordner>
-     
-                    -	model_name = <Name für das Modell festlegen mit .keras Endung>
-     
-                    -	epochen = <Anzahl Epochen die das Modell trainiert werden soll>
+     **Argumente:** -	ordner = <Name des Ordners in dem die Daten liegen (falls sich Ordner und Skript sich am selben Speicherort befinden), sonst Pfad zum Ordner>  
+                    -	model_name = <Name für das Modell festlegen mit .keras Endung>  
+                    -	epochen = <Anzahl Epochen die das Modell trainiert werden soll>  
      
                     -	n_full = < Form: [a,b,c,…], wobei a der Anzahl an Neuronen in der 1. Voll verbundenen Schicht entspricht, b der Anzahl in der 2. Schicht, usw. (Wichtig: Kein Einfluss auf die Convolutional Schichten zuvor)>
      
