@@ -1,6 +1,6 @@
 # Nutzen eines Feedforward-Netzes (FFN):
 
-  1. Importiert das Netz aus [NeuralNetwork](): `from NeuralNetwork import FFN, validation_classification`
+  1. Importiert das Netz aus [NeuralNetwork](https://github.com/Tarn017/Klassifizierung_Daten/blob/main/NeuralNetwork.py): `from NeuralNetwork import FFN, validation_classification`
   
   3. **Funktion:** `FFN()`
      
