@@ -22,6 +22,9 @@ def get_class_names(train_dir):
     ])
 
 def FFN(ordner, model_name, epochen, n_full, droprate=0.0, resize=None, padding=True, val_ordner=None, aug_parameter=None, alpha=0, lr=0.001, decay=True):
+    droprate=0
+    aug_parameter=None
+    alpha=0
     train_dir = ordner + '/'
     val_dir = val_ordner
     val_set = None
