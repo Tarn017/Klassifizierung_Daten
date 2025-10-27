@@ -1,3 +1,7 @@
+mkdir -p ~/tmp-pip
+TMPDIR=~/tmp-pip pip install --no-cache-dir tensorflow 
+
+
 # Nutzen eines Feedforward-Netzes (FFN):
 
   1. Importiert das Netz aus [NeuralNetwork](https://github.com/Tarn017/Klassifizierung_Daten/blob/main/NeuralNetwork.py): `from NeuralNetwork import FFN, validation_classification`
