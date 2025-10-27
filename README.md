@@ -1,5 +1,5 @@
-mkdir -p ~/tmp-pip
-TMPDIR=~/tmp-pip pip install --no-cache-dir tensorflow 
+`mkdir -p ~/tmp-pip`
+`TMPDIR=~/tmp-pip pip install --no-cache-dir tensorflow`
 
 
 # Nutzen eines Feedforward-Netzes (FFN):
